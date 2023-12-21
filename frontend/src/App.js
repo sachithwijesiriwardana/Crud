@@ -1,14 +1,10 @@
-// Example in src/App.js
-
-import React from 'react';
-import Button from '@mui/material/Button';
+import React from "react";
+import Header from "./Header";
 
 function App() {
   return (
     <div>
-      <Button variant="contained" color="primary">
-        Hello Material-UI
-      </Button>
+      <Header />
     </div>
   );
 }
